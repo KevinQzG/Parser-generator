@@ -39,7 +39,7 @@ Next, a grammar rule p_palindrome(p) is defined that uses the token WORD to cons
 Finally, a menu is displayed to the user with two options: evaluate predefined expressions or enter an expression to evaluate. Depending on the option selected by the user, the corresponding expression is evaluated using the evaluate(string) function. If an invalid option is entered, an error message is displayed.
 
 ## How to use
-In order to execute any of the three files we only need to have installed in our Python, the "ply" library, which is installed with the command "pip install ply", After this, we must run our code, which will show us a console menu with two options:
+In order to execute any of the three files we only need to have installed in our Python, the "ply and prettytable" library, which is installed with the command "pip install ply" and "pip install prettytable". After this, we must run our code, which will show us a console menu with two options:
  1. Analyze a string that has already been defined in the code.
  2. Parse a string that the user enters by console.
 
